@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import axios from "axios";
-import "tailwindcss/tailwind.css";
 
 const API_KEY = "YOUR_TMDB_API_KEY";
 const API_URL = "https://api.themoviedb.org/3/search/movie";
